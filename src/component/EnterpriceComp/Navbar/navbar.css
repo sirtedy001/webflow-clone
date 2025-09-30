@@ -1,0 +1,76 @@
+.head-nav{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    
+    
+}
+/* this style is for the head on above the navBar */
+.pageHead{
+  text-align: center;
+  color: white;
+  background-color: #146ef5;
+  height: 6vh;
+  font-size: 0.9375em;
+  /* padding-top: 20px; */
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* this style is for the navigators and logo (Platform, Solutions, Resources, Enterprise, Pricing, Log in, Contact Sales ,Get started) */
+.logo{
+    font-size: 1.5em !important;
+    margin-top: 9.5px !important;
+    font-weight: bold;
+}
+.navGuard{
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    height: 10.5vh;
+    background-color: #080808;
+    border-bottom: 1px solid #363636;
+    align-items: center;
+    /* padding: 0 0 0 5em; */
+    
+}
+.navs{
+    list-style: none;
+    display: flex;
+    /* justify-content: center; */
+    gap: 1.5em;
+    margin: 0 0 0 5em;
+}
+.navs li{
+    margin-top: 15px;
+}
+.navs li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    /* font-weight: bold; */
+}
+.navHover:hover{
+    color: blue;
+}
+
+.login{
+    margin-left: 18vw;
+}
+
+/* this style is for the get started button */
+.startBtn{
+    background-color: #146ef5;
+    border: 3px solid #146ef5;
+    padding: 10px 15px;  
+    border-radius: 6px;
+}
+.startBtn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;  
+    font-weight: bold;
+}

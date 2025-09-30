@@ -1,0 +1,48 @@
+.herosec{
+    width: 1190.5px;
+    background-color: #080808;
+    padding: 5em;
+    display: flex;
+    gap: 115px;
+}
+/* the styles here are for the text on the left in the heroSection */
+.textArea{
+    width: 50%;
+    /* line-height: 60px; */
+}
+.title{
+    color: #ababab;
+    font-size: 1.2em;
+}
+.heroMain{
+    line-height: 80px;
+    font-size: 4.5em;
+    letter-spacing: -1px;
+}
+.heroPara{
+    font-size: 22px;
+    margin-top: 15px;
+    line-height: 38px;
+}
+/* the "clr" classname was used to share color to diff text with color the color white */
+.clr{
+    color: white;
+}
+
+
+/* this is style is for the image in the heroSection */
+.heroimg img{
+    width: 36em;
+    height: 19.5em;
+    margin-top: 24.5vh;
+    border-radius: 10px;
+}
+/* Here is the styling for the FORM */
+.form{
+    width: 38%;
+    border-radius: 10px;
+    border: 1px solid #292929;
+    padding: 17px;
+    display: grid;
+    
+}
