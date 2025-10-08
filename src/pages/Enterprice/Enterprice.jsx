@@ -3,7 +3,7 @@ import Navbar from "../../component/EnterpriceComp/Navbar/Navbar";
 import Platform from '../../component/EnterpriceComp/Platform/Platform';
 import Partner from '../../component/EnterpriceComp/Partner/Partner';
 import Webflow from '../../component/EnterpriceComp/Webflow/Webflow'
-import Demo from '../../component/EnterpriceComp/Demo/Demo'
+// import Demo from '../../component/EnterpriceComp/Demo/Demo'
 
 function Enterprice() {
   return (
@@ -25,7 +25,7 @@ function Enterprice() {
         <Webflow />
       </div>
       <div className="demo">
-        <Demo />
+        {/* <Demo /> */}
       </div>
     </div>
   );
