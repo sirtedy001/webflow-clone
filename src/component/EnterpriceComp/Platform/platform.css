@@ -1,0 +1,43 @@
+.platform *{
+    color: white;
+}
+.platform{
+    padding: 16em 5em 0 5em;
+}
+
+
+.plat{
+    font-size: 3.2em;
+}
+.platformSelect{
+    width: 470px;
+    min-height: 12vh;
+    font-size: 3.2em;
+    padding: 0 0.1em;
+    background-color: #080808;
+    border-radius: 5px;
+}
+.platformPara{
+    margin-top: 15px;
+    width: 48%;
+    font-size: 1.4em;
+}
+
+.platformCards{
+    display: flex;
+    gap: 1.4em;
+    margin-top: 60px;
+}
+.cardImg{
+    width: 380px;
+    min-height: 73vh;
+    border-radius: 7px;
+}
+.platcardHead{
+    font-size: 1.2em;
+    width: 95%;
+    margin: 10px 0;
+}
+.platcardPara{
+    font-size: 1.1em;
+}

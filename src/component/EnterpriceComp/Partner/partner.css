@@ -1,0 +1,31 @@
+.main-card{
+    padding: 10em 5em ;
+    color: white;
+}
+
+/* this style is for the elements on the cards */
+.same{
+    font-size: 3.2em;
+}
+.cardParaH{
+    margin-top: 15px;
+    font-size: 1.2em;
+    width: 60%;
+    color: #cfcfcf;
+}
+
+/* this is where we style the cards */
+.cards{
+    display: flex;
+    gap: 5em;
+    margin-top: 5em;
+}
+.cardPartner{
+    /* width: 30%; */
+}
+.cardHead2{
+    font-size: 1.5em;
+}
+.cardPara{
+    color: #cfcfcf;
+}

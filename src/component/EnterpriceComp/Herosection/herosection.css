@@ -24,7 +24,7 @@
     margin-top: 15px;
     line-height: 38px;
 }
-/* the "clr" classname was used to share color to diff text with color the color white */
+/* the "clr" classname was used to share color to diff text with the color white */
 .clr{
     color: white;
 }
@@ -44,5 +44,31 @@
     border: 1px solid #292929;
     padding: 17px;
     display: grid;
+    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'header header'
+    'main aside'
+    'main aside'
+    'main aside'
+    'main aside'
+    'main aside'
+    'footer footer'
+    ;
 
+}
+
+.formLabel{
+    display: block;
+    grid-area: header;
+
+}
+.formSel{
+    display: block;
+    background-color: #171717;
+    width: 100%;
+}
+.formInp{
+    display: block;
+    background-color: #171717;
 }

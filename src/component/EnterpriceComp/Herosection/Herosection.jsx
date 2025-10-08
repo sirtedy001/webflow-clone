@@ -14,44 +14,57 @@ function Herosection() {
       </div>
 
       <form action="" className='form'>
+
         <label htmlFor="formTitle" className=' clr'>Contact sales</label>
+
         <div className="inp">
           <label htmlFor="bussinessLabel" className="formLabel clr">Business email*</label>
-          <input type="text" placeholder='Enter your email' />
+          <input type="text" placeholder='Enter your email' className="formInp"/>
         </div>
+
         <div className="inp">
-          <label htmlFor="bussinessLabel" className="formLabel clr">Business email*</label>
-          <select name="" id=""></select>
+          <label htmlFor="companySize" className="formLabel clr">Company Size*</label>
+          <select name="" id="" className="formSelect"></select>
         </div>
+
         <div className="inp">
-          <label htmlFor="bussinessLabel" className="formLabel clr">Business email*</label>
-          <select name="" id=""></select>
+          <label htmlFor="support" className="formLabel clr">How can we support you?*</label>
+          <select name="" id="" className="formSelect"></select>
         </div>
+
         <div className="inp">
-          <label htmlFor="bussinessLabel" className="formLabel clr">Business email*</label>
-          <input type="text" placeholder='Enter your email' />
+          <label htmlFor="firstName" className="formLabel clr">First name*</label>
+          <input type="text" placeholder='Enter your first name' className="formInp"/>
         </div>
+
         <div className="inp">
-          <label htmlFor="bussinessLabel" className="formLabel clr">Business email*</label>
-          <input type="text" placeholder='Enter your email' />
+          <label htmlFor="lastName" className="formLabel clr">Last name*</label>
+          <input type="text" placeholder='Enter your last name' className="formInp"/>
         </div>
+
         <div className="inp">
-          <label htmlFor="bussinessLabel" className="formLabel clr">Business email*</label>
-          <input type="text" placeholder='Enter your email' />
+          <label htmlFor="company" className="formLabel clr">Company*</label>
+          <input type="text" placeholder='where do you work?' className="formInp"/>
         </div>
+
         <div className="inp">
-          <label htmlFor="bussinessLabel" className="formLabel clr">Business email*</label>
-          <input type="text" placeholder='Enter your email' />
+          <label htmlFor="title" className="formLabel clr">Title*</label>
+          <input type="text" placeholder='What is your job title?' className="formInp"/>
         </div>
+
         <div className="inp">
-          <label htmlFor="bussinessLabel" className="formLabel clr">Business email*</label>
-          <input type="text" placeholder='Enter your email' />
+          <label htmlFor="country" className="formLabel clr">Country*</label>
+          <select name="country" id="" className="formSelect"></select>
         </div>
+
         <div className="inp">
-          <label htmlFor="bussinessLabel" className="formLabel clr">Business email*</label>
-          <input type="text" placeholder='Enter your email' />
+          <label htmlFor="phoneNumber" className="formLabel clr">Phone Number*</label>
+          <input type="text" placeholder='Enter your phone number' className="formInp"/>
+          <input type="button" value="Talk to us" className='formButton'/>
         </div>
-        <p className="formPara clr">By submitting this form, you agree to Webflow’s <a href="" className='clr'>Terms of Service</a> and <a href="" className='clr'>Privacy Policy.</a></p>
+
+        <p className="formPara clr">By submitting this form, you agree to Webflow's <a href="" className='clr'>Terms of Service</a> and <a href="" className='clr'>Privacy Policy.</a></p>
+
       </form>
     </div>
   )
